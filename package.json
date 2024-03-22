@@ -1,0 +1,28 @@
+{
+  "name": "throttle_function",
+  "version": "1.0.0",
+  "description": "exemple_de_funció_throttle",
+  "main": "",
+  "scripts": {
+    "test": "npx jest",
+    "dev": "npx ts-node src/index.ts",
+    "div": "npx ts-node src/divina.ts",
+    "build": "npx tsc"
+  },
+  "author": "ELIO",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "modulePathIgnorePatterns": [
+      "./dist"
+    ]
+  }
+}
